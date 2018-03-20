@@ -1,0 +1,54 @@
+Targeting : 10-14 yo
+12 kids max
+3 (or 4) kids per group
+3 sessions for discovery then 3 addons sessions, then have plans for robocup
+Cost : basic fee for workshop + cost for 1 robot ; then +1 robot = +cost
+Cost of 1 robot : ~35-40 eu
+
+| Kids nr | cost per kid | 
+| 3  | 5 eu / session |
+| 6  | 5 eu / session |
+| 12 | 5 eu / session |
+
+3h then 4/5h
+
+Session content :
+- all hands on
+- have a small environment ready to test the robots
+
+Extra session : upcycling
+
+3 first sessions :
+> Intro / build a team
+-- definition
+-- build a robot
+-- have working basic circuits to demonstrate what actuators/sensors are capable
+-- no task, just "design your robot"
+> Build a robot
+> Program
+
+When : On Fridays, 2 to 5, 3 to 6 ? > to be adapted
+
+Marketing :
+- Other Kids : mailing list to parent, teachers ; 
+- School classes: Long Night of Research
+
+Workshop for adults:
+- inday teachers
+- FB & Instagram : text, picture, logo
+
+Exploitation
+- COST proposal (EU)
+- Vorarlberg
+
+Setup
+http://microbit.org/
+
+
+Next steps:
+- logo (Stefan)
+- dates (Stefan) - March 10 / 17 / 24
+- images (Conny and Philipp)
+- costs estimate (Simon and Stefan)
+- funding (Conny)
+- course / slides content (Simon, Philipp and I)

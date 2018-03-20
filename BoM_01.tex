@@ -1,0 +1,207 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{eurosym}
+%\usepackage{fourier}
+\newcommand{\danger}{{\fontencoding{U}\fontfamily{futs}\selectfont\char 66\relax}}
+
+\title{Starting robotics kits\\Bill of Material}
+\author{Erwan Renaudo, Cornelia Vidovic, Philipp Zech}
+
+\begin{document}
+
+\maketitle
+ 
+\section{Software}
+
+    Scratch\footnote{\href{http://scratch.mit.edu/}{http://scratch.mit.edu/}} is a very popular tool for introducing beginners to programming a variety of different applications. It ranges from simple games, animations to hardware projects (with additional tools like S4A\footnote{\href{http://s4a.cat/}{http://s4a.cat/}}). The website and the documentation are available in many languages including German, thus lowering the required skills from children or preparation work for teachers.
+
+\section{Connectivity}
+
+    The simplest option to connect components are simple experimentation wires with male/female ends, that fits on component's pins and in breadboard holes. For younger kids, it may be necessary to consider easier connectors like Grove pins\footnote{\href{https://www.seeedstudio.com/Grove-Universal-4-pin-connector-p-789.html}{https://www.seeedstudio.com/Grove-Universal-4-pin-connector-p-789.html}} and a bit of preparation to solder sensors to connectors (which can also be a workshop for kids of age 10-11).
+
+\section{Prices}
+
+    Prices are evaluated from the online shop of the Robot-Maker community\footnote{\href{http://www.robot-maker.com/}{http://www.robot-maker.com/}, see "Boutique"}, a French online community of makers the author is part from. The owner of the website is interested in developing Kits and providing pedagogical content both for the forum and teaching organizations. Prices in the following are from the point of view of an individual buying the components. Thus optimizations and negociations can change the price of kits. Assembling the kit, preparing boxes and delivery are not taken into account.
+
+\section{Kits}
+    
+    This section presents different kits with different budgets. The kits are presented as for building robots but any simple automated project can be build. Not included costs are: the structure building material (wood, pvc, plexiglas are interesting low cost options), the powering elements.\\
+
+    \danger The following kits have not been tested !
+
+
+\subsection{Starter: less than 30 \euro}
+
+    This kit allows to build either a 2-Wheel-Differential robot or a tricycle with direction controlled by the servo-motor. The servo-motor can rather be used to move a gripper, animate a head, rotate a sensor.  With two different kinds of sensors, kids can explore how different modalities measures different informations on the environment. By building different shapes of actuators to put on the motors, kids can learn how to transform rotation motion into linear, ellipsoidal motions.
+
+\begin{tabular}{| l | l | c | r |}
+    \hline
+    Component & unit price & quantity & total price \\
+    \hline
+    \multicolumn{4}{| l |}{\textbf{Sensors}}\\
+    \hline
+    Ultrasound HC-SR04 & 2,70 (2,40/u for 8) & 2 & 5,40 \\
+    Contact sensors & 0,50 (0,42/u for 25) & 2 & 1,00 \\ 
+    \hline
+    \multicolumn{4}{| l |}{\textbf{Actuators}}\\
+    \hline
+    DC motor 1.5V & 0,90 & 2 & 1,80 \\
+    DC motor driver L9110 & 2,40 & 1 & 2,40\\
+    Servo-motor 9g & 3,60 & 1 & 3,60 \\
+    \hline
+    \multicolumn{4}{| l |}{\textbf{Programmable}}\\
+    \hline
+    Arduino Nano clone & 6,00 & 1 & 6,00 \\
+    \hline
+    \multicolumn{4}{| l |}{\textbf{Programmable}}\\
+    Mini Breadboard & 1,50 & 1 & 1,50\\
+    Male-Female wire (x40) & 1,90 & 1 & 1,90 \\
+    Male-Male wire (x40) & 1,90 & 1 & 1,90 \\
+    Female-Female wire (x40) & 1,80 & 1 & 1,80 \\
+    \hline
+    total & & & 27,30\\
+    \hline
+\end{tabular}
+
+\subsection{Evolved: less than 60 \euro}
+
+This kit allows to build either a complex robot or two smaller robots. Servo-motors can be used to power leg-like actuators. The motion sensor introduces a new kind of information. Some of the contact sensors can be used for building a remote and control manually the robot.
+
+\begin{tabular}{| l | l | c | r |}
+    \hline
+    Component & unit price & quantity & total price \\
+    \hline
+    \multicolumn{4}{| l |}{\textbf{Sensors}}\\
+    \hline
+    Ultrasound HC-SR04 & 2,70 (2,40/u for 8) & 4 & 10,80 \\
+    Contact sensors & 0,50 (0,42/u for 25) & 4 & 1,00 \\
+    PIR Motion sensor HC-SR501 & 3,60 & 1 & 3,60\\
+    \hline
+    \multicolumn{4}{| l |}{\textbf{Actuators}}\\
+    \hline
+    DC motor 1.5V & 0,90 & 2 & 1,80 \\
+    DC motor driver L9110 & 2,40 & 1 & 2,40\\
+    Servo-motor 9g & 3,60 & 5 & 18,00 \\
+    \hline
+    \multicolumn{4}{| l |}{\textbf{Programmable}}\\
+    \hline
+    Arduino Nano clone & 6,00 & 1 & 6,00 \\
+    Arduino Uno clone & 7,20 & 1 & 7,20 \\
+    \hline
+    \multicolumn{4}{| l |}{\textbf{Programmable}}\\
+    Mini Breadboard & 1,50 & 1 & 1,50\\
+    Micro Breadboard & 1,20 & 1 & 1,20\\
+    Male-Female wire (x40) & 1,90 & 1 & 1,90 \\
+    Male-Male wire (x40) & 1,90 & 1 & 1,90 \\
+    Female-Female wire (x40) & 1,80 & 1 & 1,80 \\
+    \hline
+    total & & & 59,10\\
+    \hline
+\end{tabular}
+
+% \subsection{Complete: 120 \euro}
+
+% \subsection{Sensors}
+% \begin{tabular}{l | l | c | r | }
+%     Component & unit price & quantity & total price \\ \hline
+%     Ultrasound HC-SR04 & 2,70 (2,40/u for 8) & 2 & 5,40 \\
+%     Contact sensors & 0,50 (0,42/u for 25) & 2 & 1,00 \\
+%     Temperature and humidity (DHT22) & 9,00 & 1 & 9,00 \\
+%     \hline
+%     total & & & 15,40\\
+%     \hline
+% \end{tabular}
+
+% \subsection{Actuators}
+
+% \begin{tabular}{l | l | c | r |}
+%     Component & unit price & quantity & total price \\ \hline
+%     DC motor 1.5V & 0,90 & 2 & 1,80 \\
+%     Servo-motor 9g & 3,60 & 4 & 14,40 \\
+%     DC motor driver L9110 & 2,40 & 1 & 2,40\\
+%     Motor GM25-370CA with encoder & 21,60 & 2 & 43,20 \\
+%     \hline
+%     total & & & 61,80\\
+%     \hline
+% \end{tabular}
+
+% \subsection{Programmable}
+
+% \begin{tabular}{l | l | c | r |}
+%     Component & unit price & quantity & total price \\ \hline
+%     Arduino Nano clone & 6,00 & 1 & 6,00 \\
+%     Arduino Uno clone & 7,20 & 1 & 7,20 \\
+%     Arduino Uno official & 22,80 & 1 & 22,80 \\
+%     \hline
+%     total & & & 36,00\\
+%     \hline
+% \end{tabular}
+
+% \subsection{Others}
+
+% \begin{tabular}{l | l | c | r |}
+%     Component & unit price & quantity & total price \\ \hline
+%     Male-Female wire (x40) & 1,90 & 1 & 1,90 \\
+%     Male-Male wire (x40) & 1,90 & 1 & 1,90 \\
+%     Female-Female wire (x40) & 1,80 & 1 & 1,80 \\
+%     \hline
+%     total & & & 5,60\\
+%     \hline
+
+% \end{tabular}
+
+% \appendix
+
+% \section{Tables}
+
+% \subsection{Sensors}
+% \begin{tabular}{l | l | c | r | }
+%     Component & unit price & quantity & total price \\ \hline
+%     Ultrasound HC-SR04 & 2,70 (2,40/u for 8) & 2 & 5,40 \\
+%     Contact sensors & 0,50 (0,42/u for 25) & 2 & 1,00 \\
+%     Temperature and humidity (DHT22) & 9,00 & 1 & 9,00 \\
+%     \hline
+%     total & & & 15,40\\
+%     \hline
+% \end{tabular}
+
+% \subsection{Actuators}
+
+% \begin{tabular}{l | l | c | r |}
+%     Component & unit price & quantity & total price \\ \hline
+%     DC motor 1.5V & 0,90 & 2 & 1,80 \\
+%     Servo-motor 9g & 3,60 & 4 & 14,40 \\
+%     DC motor driver L9110 & 2,40 & 1 & 2,40\\
+%     Motor GM25-370CA with encoder & 21,60 & 2 & 43,20 \\
+%     \hline
+%     total & & & 61,80\\
+%     \hline
+% \end{tabular}
+
+% \subsection{Programmable}
+
+% \begin{tabular}{l | l | c | r |}
+%     Component & unit price & quantity & total price \\ \hline
+%     Arduino Nano clone & 6,00 & 1 & 6,00 \\
+%     Arduino Uno clone & 7,20 & 1 & 7,20 \\
+%     Arduino Uno official & 22,80 & 1 & 22,80 \\
+%     \hline
+%     total & & & 36,00\\
+%     \hline
+% \end{tabular}
+
+% \subsection{Others}
+
+% \begin{tabular}{l | l | c | r |}
+%     Component & unit price & quantity & total price \\ \hline
+%     Male-Female wire (x40) & 1,90 & 1 & 1,90 \\
+%     Male-Male wire (x40) & 1,90 & 1 & 1,90 \\
+%     Female-Female wire (x40) & 1,80 & 1 & 1,80 \\
+%     Mini Breadboard & 1,50 & 1 & 1,50\\
+%     Micro Breadboard & 1,20 & 1 & 1,20\\
+%     \hline
+%     total & & & \\
+%     \hline
+% \end{tabular}
+
+\end{document}

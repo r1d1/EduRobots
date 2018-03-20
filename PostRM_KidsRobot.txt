@@ -1,0 +1,33 @@
+Aujourd'hui, on parle de kit, de kids et de robots !
+
+Le projet ROSSINI (https://www.uibk.ac.at/jungeuni/rossini.html -- en allemand), que nous avons démarré avec quelques amis, consiste à organiser des ateliers de découverte de la robotique auprès des enfants et des pré-adolescents. Le but est de rendre accessible et amusante la fabrication de robot, de démystiier la technologie, de casser les a-priori sur qui peut faire de la robotique (genre, milieu social, etc.). Le projet en soi n'est pas d'une originalité folle, mais il n'existait rien de ce type dans la région.
+
+Pour l'instant, le format est de 3 sessions pendant 3 semaines successives. La première consiste en une petite introduction sur ce qu'est un robot, et les participants sont invités à dessiner le robot qu'ils imaginent. On regroupe ensuite les enfants par groupe de 2 à 4 et ils vont se familiariser à la programmation par blocs avec le BBC micro:bit (voir le test que j'avais fait - lien). Pendant la deuxième séance, on va plus loin sur les capteurs, les actionneurs, la fabrication du châssis. La troisième séance est utilisée pour construire et finir le robot, le programmer et arriver à le faire bouger.
+
+Les premiers retours sont très positifs, et on est même arrivé à trois robots sur quatre quasiment finis et au moins deux qui bougeaient.
+
+Froggy Jr.
+Ceux qui sont ici depuis assez longtemps savent que mon projet principal de robot est Froggy (voir [url=http://www.robot-maker.com/forum/blog/blog-29/cat-12-froggy]blog[/url]) et qu'il avance plus à un rythme de tortue qu'à la vitesse d'une grenouille sautillante ! Pour le projet ROSSINI (voir plus bas), nous avons mis en place un kit pour pouvoir initier facilement des enfants autour de 10 ans. Pour tester ce kit, j'ai monté Froggy Jr. en réutilisant le châssis de la v2 de Froggy.
+En soi, le robot est assez simple :
+
+<photo Froggy Jr.>
+
+Deux moteurs CC (sans encodeurs) pour un design 2WD, un capteur de distance et une BBC micro:bit (voir le [url=http://www.robot-maker.com/forum/topic/11931-bbc-microbit]post de test[/url]ou le [url=?]billet de blog[/url] correspondant)
+
+Kit robot.
+Rien de bien compliqué ici, mais heureusement, pour les enfants, le simple fait d'avoir un robot qui bouge et fait du bruit est satisfaisant.
+Le kit actuel comporte :
+- BBC micro:bit
+- BBC micro:bit motor driver v2
+- Ball caster
+- Moteur DC modélisme (sans encodeur) x2
+- Roue de modélisme x2
+- Capteur US/IR
+- Breadboard
+- 
+
+Chassis en contreplaqué 3mm
+
+#---------------------------------------------
+Acceleromètre, détection des impacts
+

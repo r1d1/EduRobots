@@ -1,0 +1,7 @@
+http://www.pedagogie.ac-nantes.fr/technologies-et-sciences-des-ingenieurs/documentation/didacticiels-tutoriels/piloter-arduino-par-scratch2-819284.kjsp
+https://scratch.mit.edu/educators/
+http://www.planete-sciences.org/blogs/trophees-robotique/2013_idf_jamkrobotique/files/2013/02/Fiche-n3-Programmer-avec-Scratch-For-Arduino.pdf
+http://eduscol.education.fr/technocol/reseau-anima/autres-reunions/reunion_interlocuteurs_2014_2015_angers/documents_caches_2015/presentation_acad_nantes_2015
+http://www.robot-maker.com/shop/blog/56_Premier-programme-Scratch-Arduino.html
+https://doc.ubuntu-fr.org/scratch#installation_de_scratch_2
+http://s4a.cat/
